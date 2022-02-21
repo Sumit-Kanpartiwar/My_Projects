@@ -5,7 +5,7 @@ logging.basicConfig(filename="File_Listing.log", level=logging.DEBUG, format="%(
 root = Tk() #initializing root frame
 frm = ttk.Frame(root, padding=50)  #adding padding to frame
 frm.grid() #adding grid to the frame
-Path=StringVar() #ttk variable to store imformation given from input widget
+Path=StringVar() #ttk variable to store information given from input widget
 def search_file_clicked():
     logging.info("command button function")
     try:
